@@ -1,13 +1,13 @@
 // describe = like a frame to structure your test fine, important for hooks
 describe('Check symfony world site', () => {
 
-    // Hook?
+    // Hook, executed before every test in here
     beforeEach(() => {
         cy.visit('/');
     });
 
     // Actual test, see if my session can be found at the Schedule
-    it('should find this session', function () {
+    it('should find this session', () => {
 
         // I like to use these assertion to wait for changes in the UI
         // Here: that the site is fully loaded
