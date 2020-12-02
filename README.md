@@ -12,4 +12,6 @@ In my session, I want to introduce Cypress to you and explore its possibilities 
 
 ## Resources
 
-You can find my slides here: **TBA**
+You can find my slides here: https://speakerdeck.com/leichteckig/symfony-meets-cypress-e2e-testing-for-symfony-developers
+
+API example: https://github.com/leichteckig/cypress-intro-symfony-uk/blob/main/cypress/integration/symfony/3-find-elephpant.spec.js
